@@ -12,7 +12,7 @@ Allows you to remove specific content of your posts from RSS feeds and replace i
 
 RSSless is a WordPress plugin which allows you to hide specific content in your posts from RSS readers. This is helpful for bloggers who embed videos, images, or other content which doesn't display or embed correctly in RSS readers. Rather then having RSS readers get blank content, you can simply replace it with customizable message, such as "Please view the original article to watch this video."
 
-RSSless uses WordPress' built in short code API. Simply surround the content you want to hide from RSS readers with the [rssless] [/rssless] short code tags
+RSSless uses WordPress' built in short code API. To hide specific content from RSS readers simply surround your chosen content (images, embedded videos, text, etc) with the short code tags. You can replace your content with the default replacement text you set in the Options menu by simply surrounding your content with [rssless][/rssless]. Alternatively, you can chose a custom message for each short code by setting a “text” attribute, such as in the following: [rssless text="Replacement text"][/rssless].
 
 == Installation ==
 
